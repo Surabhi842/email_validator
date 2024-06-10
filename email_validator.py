@@ -19,7 +19,7 @@ def email_validator(email): #defines a function
         print("Check you length,first character or @ count")            
         return False
 #basic format=g@g.in,g@g.com(means atleast contains 6 characters)
-email=input("Enter you email:") 
+email=input("Enter your email:") 
 result=email_validator(email)
 if result:
     print("Congrats!!! Your email is totally valid..")
